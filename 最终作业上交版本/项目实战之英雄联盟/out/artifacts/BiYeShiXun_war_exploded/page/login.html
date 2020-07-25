@@ -1,0 +1,87 @@
+<!--
+ * @Author: 冰彦糖
+ * @Date: 2019-11-22 09:14:07
+ * @LastEditTime: 2019-12-16 21:44:07
+ * @LastEditors: 冰彦糖
+ * @Description: 登录页面
+ * @FilePath: \前端\page\login.html
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>登录</title>
+    <link rel="icon" href="/image/20191213060328854_easyicon_net_256.ico" type="image/x-icon"/>
+    <meta name="copyright" content="本页版权冰彦糖所有。All Rights Reserved">
+    <meta name="keywords" content="英雄联盟,leagueoflegends,LOL,LOL资料库">
+    <meta name="description" content="英雄联盟,leagueoflegends,LOL,LOL资料库">
+    <!-- 优先以webkit内核渲染页面 -->
+     <meta name="renderer" content="webkit" />
+    <link rel="stylesheet" href="/css/login.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/css/waifu.css"/>
+    <link href="/font/stylesheet.css">
+    <script src="/js/autoload.js"></script>
+</head>
+<body>
+<!-- <div> -->
+
+<!-- </div> -->
+<div class="main">
+    <div class="from">
+        <div class="head">
+            <h2>登录</h2>
+        </div>
+        <div class="bd">
+            <form action="/login" method="post" οnsubmit="return check();" onclick="return check();">
+                <input class="input_user" type="text" name="username" id="input_user" onchange="isuser()">
+                <label class="label_input_user" for="input_user">
+                    <span class="username">用户名</span>
+                </label>
+                <br>
+                <span class="text">用户名提示</span>
+                <input class="input_pwd" type="password" name="password" id="input_pwd" onchange="ispwd()">
+                <label class="label_input_pwd pwd" for="input_pwd">
+                    <span class="pwd">密码</span>
+                </label>
+                <span class="text" id="pwd_text">密码提示</span>
+                <div id="mpanel3" style="margin-top: 4rem;">
+                </div>
+                <input type="submit" name="login" value="" id="login" class="btn" title="登录">
+            </form>
+        </div>
+        <div class="bottom">
+            <a href="/page/zhuce.html">没有账户？</a>
+            <br>
+            <!-- @冰彦糖 -->
+        </div>
+    </div>
+</div>
+<div class="waifu">
+    <div class="waifu-tips"></div>
+    <canvas id="live2d" class="live2d"></canvas>
+    <div class="waifu-tool">
+        <span class="fui-home"></span>
+        <span class="fui-chat"></span>
+        <span class="fui-eye"></span>
+        <span class="fui-user"></span>
+        <span class="fui-photo"></span>
+        <span class="fui-info-circle"></span>
+        <span class="fui-cross"></span>
+    </div>
+</div>
+<script src="/js/jquery-3.4.1.min.js"></script>
+<script src="/js/tools.js"></script>
+<script type="text/javascript" src="/js/verify.js" ></script>
+<script src="/js/login.js"></script>
+<script src="/js/live2d.js"></script>
+<script src="/js/waifu-tips.js"></script>
+<script type="text/javascript">
+    live2d_settings['modelId'] = 1;
+    live2d_settings['modelTexturesId'] = 87;
+    initModel("/json/waifu-tips.json")
+</script>
+</body>
+</html>

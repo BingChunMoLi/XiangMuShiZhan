@@ -1,0 +1,47 @@
+.main{
+    background: url("/image/login/zhuce.jpg");
+}
+.main .from .bd .pwd2:focus+.pwd1{
+	font-size: 1.2rem;
+	animation: input_3 1s forwards;
+	-moz-animation: input_3 1s forwards;	/* Firefox */
+	-webkit-animation: input_3 1s forwards;	/* Safari 和 Chrome */
+	-o-animation: input_3 1s forwards;	/* Opera */
+	font-weight: bolder;
+}
+@-webkit-keyframes input_3 {
+	50% {
+		opacity: 0;
+		-webkit-transform: translate3d(1em,0,0);
+		transform: translate3d(1em,0,0)
+	}
+
+	51% {
+		opacity: 0;
+		-webkit-transform: translate3d(-1em,-40%,0);
+		transform: translate3d(-1em,-40%,0)
+	}
+
+	100% {
+		opacity: 1;
+		-webkit-transform: translate3d(0,-70%,0);
+		transform: translate3d(0,-70%,0)
+	}
+}
+
+@keyframes input_3 {
+	50% {
+		opacity: 0;
+		-webkit-transform: translate3d(1em,0,0);
+		transform: translate3d(1em,0,0)
+	}
+	51% {
+		opacity: 0;
+		-webkit-transform: translate3d(-1em,-40%,0);
+		transform: translate3d(-1em,-40%,0)
+	}
+	100% {
+		opacity: 1;
+		-webkit-transform: translate3d(0,-70%,0);
+		transform: translate3d(0,-70%,0)
+	}

@@ -1,0 +1,257 @@
+body{
+	font-size: 0.875rem;
+	/*font-family: '微软雅黑';*/
+    max-width: 100%;
+    min-width: 1450px;
+	height: 900X;
+}
+    /* 头部 */
+.head{
+	min-width: 1450px;
+	max-width: 100%;
+	height: 10rem;
+	position: relative;
+}
+.head .head_button{
+	width: 100%;
+	height: 8rem;
+	margin: auto;
+	background:  linear-gradient(to right, #16bffd,#cb3066);
+}
+
+/* LOL图标 */
+.head .head_left{
+	width: 5rem;
+	height: 5rem;
+	background: url(/image/leagueoflegends.png) no-repeat;
+	background-size: 5rem 5rem;
+	position: absolute;
+	left: 45%;
+	top: 1.5rem;
+}
+/*LOL资料库*/
+.head span{
+	width: 20rem;
+	margin-top: 0.9375rem;
+	height: 2.1875rem;
+	display: table-cell;
+	vertical-align: middle;
+	color: blanchedalmond;
+	/*font-family: "微软雅黑";*/
+	font-size: 3.5rem;
+	font-display: center;
+	position: absolute;
+	left: 49%;
+	top: 1rem;
+}
+.room{
+	height: 1.6rem;
+	width: 100%;
+}
+form{
+	width: 70%;
+	margin: 0 auto;
+	position: relative;
+}
+	/* 视频 */
+.class_one{
+	width: 80%;
+	height: 500px;
+	background: #c4b9b9;
+	border:2px solid #F00;
+}
+    /* 视频 */
+/* 上一步 */
+form .icon {
+	width: 100%;
+	height: 30px;
+	position: relative;
+}
+form .icon span{
+	height: 30px;
+	line-height: 30px;
+	font-size: 20px;
+	position: absolute;
+	left: 240px;
+}
+form .icon a{
+	height: 30px;
+	line-height: 30px;
+	font-size: 20px;
+	color: #615959;
+}
+form .icon a:hover{
+	text-decoration: underline;
+}
+form .icon .icon-1{
+	position: absolute;
+	left: 40px;
+}
+form .icon .icon-2{
+	position: absolute;
+	left: 130px;
+}
+form .icon .icon-home{
+	width: 30px;
+	height: 30px;
+}
+form .icon .icon-arrow-1{
+	width: 30px;
+	height: 20px;
+	position: absolute;
+	top: 5px;
+	left: 100px;
+}
+form .icon .icon-arrow-2{
+	width: 30px;
+	height: 20px;
+	position: absolute;
+	top: 5px;
+	left: 210px;
+}
+/* 上一步 */
+	/* 头部 */
+/* 选择 */
+form .tre{
+	position: relative;
+	/* height: 500px; */
+}
+form .tre .tre_btn{
+	display: block;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 105px;
+}
+form .tre li{
+	display: block;
+	float: left;
+	width: 100px;
+    height: 79px;
+    line-height: 80px;
+}
+form .tre .tre_btn ul li span{
+    display: block;
+    font-size: 20px;
+    text-align: center;
+}
+form .tre .tre_btn ul .current{
+    border-top: 3px solid #00a383;
+    padding: 10px 19px 13px;
+    background: rgb(230, 230, 230);
+    border-left: 1px solid #e1e1e1;
+    border-right: 1px solid #e1e1e1;
+}
+
+/*  */
+form .tre .tre_bun{
+	width: 100%;
+	height: 400px;
+	background: rgb(230, 230, 230);
+	font-size: 20px;
+	position: relative;
+	padding: 30px;
+	text-align: center;
+}
+/* form  */
+form .tre .tre_bun div {
+	width: 100%;
+}
+form .tre .tre_bun div .ul_enter1{
+	display: block;
+	position: absolute;
+	top: 30px;
+	left: 40px;
+}
+form .tre .tre_bun div .ul_enter2{
+	display: block;
+	position: absolute;
+	top: 80px;
+	left: 40px;
+}
+form .tre .tre_bun div .ul_enter3{
+	display: block;
+	position: absolute;
+	top: 130px;
+	left: 40px;
+}
+form .tre .tre_bun div .ul_enter4{
+	display: block;
+	position: absolute;
+	top: 180px;
+	left: 40px;
+}
+form .tre .tre_bun div .ul_enter5{
+	display: block;
+	position: absolute;
+	top: 230px;
+	left: 40px;
+}
+form .tre .tre_bun div .ul_enter6{
+	display: block;
+	position: absolute;
+	top: 280px;
+	left: 40px;
+}
+form .tre .tre_bun div input{
+	width: 200px;
+	height: 30px;
+}
+form .tre .tre_bun div .li_wid{
+	width: 200px;
+}
+form .tre .tre_bun div .li_hei{
+	position: absolute;
+	top: 25px;
+}
+form .tre .tre_bun div .li_hei1{
+	width: 30px;
+	/*position: relative;*/
+	position: relative;
+	top: 0.7rem;
+	left: 3rem;
+	/*top: 25px;*/
+	/*left: 250px;*/
+}
+form .tre .tre_bun div .li_hei2{
+	width: 30px;
+	position: relative;
+	top: 0.7rem;
+	left: 5.5rem;
+	/*position: absolute;*/
+	/*top: 25px;*/
+	/*left: 350px;*/
+}
+.nan{
+	position: absolute;
+	left: -0.3rem;
+	top: -0.3rem;
+}
+.girl{
+	position: absolute;
+	top: -0.3rem;
+}
+
+/* 底部版权 */
+.button{
+	display: block;
+	height: 5rem;
+	font-size: 4rem;
+	line-height: 5rem;
+	width: 100%;
+	background:  linear-gradient(to right, #16bffd,#cb3066);
+	position: relative;
+	margin: 0 auto;
+	text-align: center;
+}
+.button p{
+	width:100%;
+	height: 50%;
+	text-align: center;
+	color: #fff;
+	display: inline-block;
+	position: absolute;
+	top: 2rem;
+	margin: 0 auto;
+	left: 50%;
+}
